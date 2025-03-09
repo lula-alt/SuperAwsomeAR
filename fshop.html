@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer@latest/dist/model-viewer.min.js"
+    ></script>
+    <title>Online Shop</title>
+
+    <script>
+      function isMobileDevice() {
+          return /Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+      }
+
+      if (!isMobileDevice()) {
+          window.location.href = "blocked.html"; // Redirect desktops to another page
+      }
+  </script>
+  
+  </head>
+
+
+  <body>
+   <header>
+      <image src="images/AR_2/shop/files/სარწეველა.png" id="product"></image>
+      <model-viewer src="AR/hanging_chair_v01.glb"
+    alt="A 3D model of a hanging chair"
+    auto-rotate 
+    camera-controls
+    ar
+    style="min-width: 360px; min-height: auto; border: none; position: relative;"
+    id="armodel"
+    disable-zoom
+    >
+    <button slot="ar-button" class="custom-ar-button"
+    id="arbutton">
+      AR
+  </button>
+  </model-viewer>
+   </header>
+  
+
+   <footer>
+    <image src="images/AR_2/shop/files/2350 ₾.png" id="price"></image>
+    <image src="images/AR_2/shop/files/აღწერა.png" id="description"></image>
+    <image src="images/AR_2/shop/files/delivery.png" id="delivery"></image>
+    <image src="images/AR_2/shop/files/დამატება_.png" id="add"></image>
+    <image src="images/AR_2/shop/files/ყიდვა.png" id="buy"></image>
+   </footer>
+  </body>
+
+
+</html>

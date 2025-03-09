@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  height: 70%;
+  width: 100%;
+  display: block;
+}
+
+
+#product{
+  padding-left: 11vw;
+  padding-top: 14vw;
+  width: 50%;
+  height: 13%;
+}
+
+
+#armodel{
+  width: auto;
+  height: 50vh;
+}
+
+/*
+#model{
+  width: 60%;
+  height: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 6%;
+}
+*/
+
+#arbutton{
+  width: auto;
+  height: auto;
+  margin-left: 42%;
+  margin-top: 5%;
+  background-color: #ff8a00;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 6px 18px 4px 18px;
+  color: #f8f8f8;
+  font-weight: bold;
+  top: 45vh;
+  position: relative;
+  left: 18vh;
+  top: 44vh;
+}
+
+/* ფუტერბუტერი dahfakljhgdfkhasghjkdaghsjkdhjkgasfgasjdjkhasdgasgkhdhgjashkgjdkhgaskjghd*/
+
+
+footer{
+  background-color: #f8f8f8;
+  margin-top: 20px;
+  height: 24vh;
+  padding-bottom: 1vh;
+}
+
+#price{
+  padding-left: 10vw;
+  padding-top: 5vw;
+  width: 18vw;
+  height: 2.25vh;
+  display: inline-block;
+  position: relative;
+  bottom: 6.7vh;
+}
+
+#description{
+  padding-right: 7vw;
+  padding-top: 5vh;
+  margin-left: 26vw;
+  width: 35vw;
+  height: 15.1vw;
+  display: inline-block;
+  position: relative;
+  bottom: 3.5vw;
+}
+
+
+#delivery{
+  width:  28vw;
+  height: 5.3vw;
+  position: relative;
+  left: 9vw;
+  bottom: 16vw;
+  display: inline-block;
+}
+
+
+#add{
+  width: 32vw;
+  height: 10vw;
+  position: relative;
+  right: 16vw;
+  display: inline-block;
+  top: 3vw;
+}
+
+#buy{
+  width: 32vw;
+  height: 10vw;
+  position: relative;
+  display: inline-block;
+  top: 3vw;
+  right: 7vw;
+}
